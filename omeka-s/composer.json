@@ -74,7 +74,10 @@
         "zerocrates/extract-tagged-strings": "dev-master"
     },
     "autoload": {
-        "psr-4": {"Omeka\\": "application/src"}
+        "psr-4": {
+          "Omeka\\": "application/src",
+          "moduleThreeJS\\": "models/moduleThreeJS/src"
+        }
     },
     "config": {
         "platform": {"php": "7.1"}
